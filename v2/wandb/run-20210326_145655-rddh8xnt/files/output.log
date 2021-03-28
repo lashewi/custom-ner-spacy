@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "custom-model-v2.py", line 95, in <module>
+    plac.call(main)
+  File "/opt/conda/lib/python3.7/site-packages/plac_core.py", line 367, in call
+    cmd, result = parser.consume(arglist)
+  File "/opt/conda/lib/python3.7/site-packages/plac_core.py", line 232, in consume
+    return cmd, self.func(*(args + varargs + extraopts), **kwargs)
+  File "custom-model-v2.py", line 42, in main
+    nlp = spacy.load(model)
+  File "/opt/conda/lib/python3.7/site-packages/spacy/__init__.py", line 30, in load
+    return util.load_model(name, **overrides)
+  File "/opt/conda/lib/python3.7/site-packages/spacy/util.py", line 175, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.

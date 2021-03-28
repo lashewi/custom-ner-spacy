@@ -1,0 +1,6 @@
+Loaded model 'en'
+epoch :  0     losses :  {'ner': 439457.8107909608}
+epoch :  1     losses :  {'ner': 429328.7065270321}
+epoch :  2     losses :  {'ner': 424684.182110543}
+epoch :  3     losses :  {'ner': 423082.7922174431}
+epoch :  4     losses :  {'ner': 423218.4291705028}
