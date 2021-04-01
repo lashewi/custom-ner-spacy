@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "custom-model-v2.py", line 28, in <module>
-    random.shuffle(TRAIN_DATA)
-NameError: name 'TRAIN_DATA' is not defined

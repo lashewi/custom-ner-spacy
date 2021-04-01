@@ -1,9 +1,0 @@
-Loaded model 'en'
-Losses {'ner': 437783.9245227111}
-Saved model to output
-Loading model from output
-Testing sentence:  In year 2015 Wisumperuma completed secodary educaiton in Sri Lanka
-B-tim 2015
-I-tim Wisumperuma
-B-geo Sri
-I-geo Lanka
