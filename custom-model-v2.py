@@ -59,7 +59,7 @@ def main(model=None, new_model_name='new_model', output_dir=None, n_iter=10):
         optimizer = nlp.entity.create_optimizer()
 
     pipe_exceptions = ["ner", "trf_wordpiecer", "trf_tok2vec"]
-    other_pipes = [pipe for pipe in nlp.pipe_names if pipe not in pipe_exceptions]
+    other_pipes = [pipe for pipe in nlp.pipe_names if pipe != 'ner']
     with nlp.disable_pipes(*other_pipes):  
         for itn in range(n_iter):
             random.shuffle(TRAIN_DATA)
