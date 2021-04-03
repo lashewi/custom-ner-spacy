@@ -1,0 +1,26 @@
+{
+    "os": "Linux-4.19.0-14-cloud-amd64-x86_64-with-debian-10.8",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-04-01T14:49:49.249105",
+    "startedAt": "2021-04-01T14:49:39.296692",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-m=en",
+        "-o=output/",
+        "-n=1000"
+    ],
+    "state": "running",
+    "program": "custom-model-v2.py",
+    "codePath": "custom-model-v2.py",
+    "git": {
+        "remote": "https://github.com/lashewi/custom-ner-spacy",
+        "commit": "79fc782772f01f4eff1f1b78fa3177752d0244f7"
+    },
+    "email": "swisum@gmail.com",
+    "root": "/home/lashewi/custom-ner-spacy",
+    "host": "deeplearning-1-vm",
+    "username": "lashewi",
+    "executable": "/opt/conda/bin/python3"
+}

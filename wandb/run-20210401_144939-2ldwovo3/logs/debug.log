@@ -1,0 +1,28 @@
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_setup.py:_flush():69] setting env: {}
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_init.py:_log_setup():336] Logging user logs to /home/lashewi/custom-ner-spacy/wandb/run-20210401_144939-2ldwovo3/logs/debug.log
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_init.py:_log_setup():337] Logging internal logs to /home/lashewi/custom-ner-spacy/wandb/run-20210401_144939-2ldwovo3/logs/debug-internal.log
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_init.py:init():369] calling init triggers
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [wandb_init.py:init():418] starting backend
+2021-04-01 14:49:39,297 INFO    MainThread:2211 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-04-01 14:49:39,306 INFO    MainThread:2211 [backend.py:ensure_launched():123] starting backend process...
+2021-04-01 14:49:39,310 INFO    MainThread:2211 [backend.py:ensure_launched():128] started backend process with pid: 2227
+2021-04-01 14:49:39,311 INFO    MainThread:2211 [wandb_init.py:init():423] backend started and connected
+2021-04-01 14:49:39,312 INFO    MainThread:2211 [wandb_init.py:init():463] updated telemetry
+2021-04-01 14:49:39,312 INFO    MainThread:2211 [wandb_init.py:init():482] communicating current version
+2021-04-01 14:49:39,849 INFO    MainThread:2211 [wandb_init.py:init():487] got version response upgrade_message: "wandb version 0.10.24 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-04-01 14:49:39,849 INFO    MainThread:2211 [wandb_init.py:init():495] communicating run to backend with 30 second timeout
+2021-04-01 14:49:39,946 INFO    MainThread:2211 [wandb_init.py:init():520] starting run threads in backend
+2021-04-01 14:49:44,950 INFO    MainThread:2211 [wandb_run.py:_console_start():1507] atexit reg
+2021-04-01 14:49:44,950 INFO    MainThread:2211 [wandb_run.py:_redirect():1370] redirect: SettingsConsole.REDIRECT
+2021-04-01 14:49:44,951 INFO    MainThread:2211 [wandb_run.py:_redirect():1375] Redirecting console.
+2021-04-01 14:49:44,951 INFO    MainThread:2211 [redirect.py:install():213] install start
+2021-04-01 14:49:44,951 INFO    MainThread:2211 [redirect.py:install():228] install stop
+2021-04-01 14:49:44,951 INFO    MainThread:2211 [redirect.py:install():213] install start
+2021-04-01 14:49:44,951 INFO    MainThread:2211 [redirect.py:install():228] install stop
+2021-04-01 14:49:44,952 INFO    MainThread:2211 [wandb_run.py:_redirect():1421] Redirects installed.
+2021-04-01 14:49:44,952 INFO    MainThread:2211 [wandb_init.py:init():544] run started, returning control to user process
+2021-04-03 04:03:17,841 INFO    MainThread:2211 [wandb_run.py:finish():1166] finishing run lashewi/spacy-ner/2ldwovo3
